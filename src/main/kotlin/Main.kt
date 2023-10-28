@@ -29,6 +29,7 @@ fun generateTable(alphabet: String): Array<Array<String>> {
         table[row][col] = alphabet[i].toString()
     }
 
+
     return table
 }
 // Шифрование сообщения
